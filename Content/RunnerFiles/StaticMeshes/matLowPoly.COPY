@@ -1,0 +1,61 @@
+Begin Object Class=/Script/Engine.Material Name="matLowPoly"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_4"
+      R=1.000000
+      MaterialExpressionEditorX=30
+      MaterialExpressionEditorY=208
+      MaterialExpressionGuid=CC6396CB4F5F168B3B149A8F52EB6E3F
+      Material=Material'"matLowPoly"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_5"
+      MaterialExpressionEditorX=-16
+      MaterialExpressionEditorY=112
+      MaterialExpressionGuid=ADDE3B444B22253BE1F6279BD344573A
+      Material=Material'"matLowPoly"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_6"
+      MaterialExpressionEditorX=64
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=F8B0E2324FDEA446272AA38052CB4C4F
+      Material=Material'"matLowPoly"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Texture=Texture2D'"/Game/ART/Building/LowPoly_Assets/Meshes/lowpoly_tex.lowpoly_tex"'
+      MaterialExpressionEditorX=-224
+      MaterialExpressionEditorY=-160
+      MaterialExpressionGuid=3C7EDAEF0F465B6A04864ABAEF976756
+      Material=Material'"matLowPoly"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_5"')
+   Specular=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_6"')
+   Roughness=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_4"')
+   bUsedWithSkeletalMesh=True
+   bUsedWithStaticLighting=True
+   bUsedWithMorphTargets=True
+   bUsedWithInstancedStaticMeshes=True
+   EditorX=240
+   EditorY=32
+   Expressions(0)=MaterialExpressionConstant'"MaterialExpressionConstant_5"'
+   Expressions(1)=MaterialExpressionConstant'"MaterialExpressionConstant_6"'
+   Expressions(2)=MaterialExpressionConstant'"MaterialExpressionConstant_4"'
+   Expressions(3)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=93DCE83C064D9A25CF58A4BD3C83FEE2
+   ReferencedTextureGuids(0)=2CF4F56342D2B8BCF038B08E69F83669
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="lowpoly_tex",TextureReference=/Game/ART/Building/LowPoly_Assets/Meshes/lowpoly_tex.lowpoly_tex)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=7D4DB9ED1D448D0C8556A1BCDA5DE4F3
+End Object

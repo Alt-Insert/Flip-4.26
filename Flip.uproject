@@ -1,0 +1,120 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.26",
+	"Category": "",
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "ApexDestruction",
+			"Enabled": true
+		},
+		{
+			"Name": "AppleARKit",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"IOS",
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "BlueprintMaterialTextureNodes",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosCaching",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosVehiclesPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "CodeView",
+			"Enabled": true
+		},
+		{
+			"Name": "DatasmithC4DImporter",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "DatasmithCADImporter",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "DatasmithFBXImporter",
+			"Enabled": true
+		},
+		{
+			"Name": "DatasmithGLTFImporter",
+			"Enabled": true
+		},
+		{
+			"Name": "DatasmithIFCImporter",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "DatasmithImporter",
+			"Enabled": true
+		},
+		{
+			"Name": "DatasmithRuntime",
+			"Enabled": true
+		},
+		{
+			"Name": "Landmass",
+			"Enabled": true
+		},
+		{
+			"Name": "NiagaraExtras",
+			"Enabled": true
+		},
+		{
+			"Name": "PhysicalLayout",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/349bf2d4b1a945fa8f31db80fabf8058"
+		},
+		{
+			"Name": "SoundCueTemplates",
+			"Enabled": true
+		},
+		{
+			"Name": "SoundMod",
+			"Enabled": true
+		},
+		{
+			"Name": "SoundUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "SoundVisualizations",
+			"Enabled": true
+		},
+		{
+			"Name": "Takes",
+			"Enabled": true
+		},
+		{
+			"Name": "Volumetrics",
+			"Enabled": true
+		},
+		{
+			"Name": "VoiceChat",
+			"Enabled": false
+		},
+		{
+			"Name": "Water",
+			"Enabled": true
+		}
+	]
+}
